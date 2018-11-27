@@ -11,8 +11,9 @@
     // TODO #2 - Loop over jobs dictionary and display all job fields
     @foreach (var job in ViewBag.Jobs)
     {
-        int idx = 1;
-        <table class="job-listing">
+
+        
+        <table class="table job-listing">
 
             @foreach (KeyValuePair<string, string> jobfield in job)
             {
